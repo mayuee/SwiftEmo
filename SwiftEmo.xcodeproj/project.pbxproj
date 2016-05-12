@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		400E00B01CE0276900A1CE99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E00AF1CE0276900A1CE99 /* AppDelegate.swift */; };
-		400E00B21CE0276900A1CE99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E00B11CE0276900A1CE99 /* ViewController.swift */; };
 		400E00B51CE0276900A1CE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400E00B31CE0276900A1CE99 /* Main.storyboard */; };
 		400E00B71CE0276900A1CE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400E00B61CE0276900A1CE99 /* Assets.xcassets */; };
 		400E00BA1CE0276900A1CE99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400E00B81CE0276900A1CE99 /* LaunchScreen.storyboard */; };
 		400E00C51CE0276900A1CE99 /* SwiftEmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E00C41CE0276900A1CE99 /* SwiftEmoTests.swift */; };
 		400E00D01CE0276A00A1CE99 /* SwiftEmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E00CF1CE0276A00A1CE99 /* SwiftEmoUITests.swift */; };
+		400E00DE1CE027A000A1CE99 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E00DD1CE027A000A1CE99 /* RootViewController.swift */; };
+		401A1B991CE0607D004F7AF3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A1B981CE0607D004F7AF3 /* FirstViewController.swift */; };
+		40EE45E81CE0969E00950586 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE45E71CE0969E00950586 /* StringExt.swift */; };
+		40EE45ED1CE1803400950586 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE45EC1CE1803400950586 /* TableViewController.swift */; };
+		40EE45EF1CE1923700950586 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE45EE1CE1923700950586 /* CustomViewCell.swift */; };
+		40EE45F11CE31AC700950586 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE45F01CE31AC700950586 /* HomeViewController.swift */; };
+		40EE45F31CE32C0F00950586 /* AutoCellHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE45F21CE32C0F00950586 /* AutoCellHeightViewController.swift */; };
+		40EE45FA1CE3335A00950586 /* AutoLayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE45F81CE3335A00950586 /* AutoLayoutCell.swift */; };
+		40EE45FB1CE3335A00950586 /* AutoLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EE45F91CE3335A00950586 /* AutoLayoutCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		400E00AC1CE0276900A1CE99 /* SwiftEmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		400E00AF1CE0276900A1CE99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		400E00B11CE0276900A1CE99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		400E00B41CE0276900A1CE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		400E00B61CE0276900A1CE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400E00B91CE0276900A1CE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		400E00CB1CE0276A00A1CE99 /* SwiftEmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400E00CF1CE0276A00A1CE99 /* SwiftEmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEmoUITests.swift; sourceTree = "<group>"; };
 		400E00D11CE0276A00A1CE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400E00DD1CE027A000A1CE99 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		401A1B981CE0607D004F7AF3 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		40EE45E71CE0969E00950586 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		40EE45EC1CE1803400950586 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		40EE45EE1CE1923700950586 /* CustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		40EE45F01CE31AC700950586 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		40EE45F21CE32C0F00950586 /* AutoCellHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCellHeightViewController.swift; sourceTree = "<group>"; };
+		40EE45F81CE3335A00950586 /* AutoLayoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutCell.swift; sourceTree = "<group>"; };
+		40EE45F91CE3335A00950586 /* AutoLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				400E00AF1CE0276900A1CE99 /* AppDelegate.swift */,
-				400E00B11CE0276900A1CE99 /* ViewController.swift */,
+				400E00DD1CE027A000A1CE99 /* RootViewController.swift */,
+				40EE45F01CE31AC700950586 /* HomeViewController.swift */,
+				401A1B981CE0607D004F7AF3 /* FirstViewController.swift */,
+				40EE45EC1CE1803400950586 /* TableViewController.swift */,
+				40EE45EE1CE1923700950586 /* CustomViewCell.swift */,
+				40EE45F21CE32C0F00950586 /* AutoCellHeightViewController.swift */,
+				40EE45F81CE3335A00950586 /* AutoLayoutCell.swift */,
+				40EE45F91CE3335A00950586 /* AutoLayoutCell.xib */,
+				40EE45E71CE0969E00950586 /* StringExt.swift */,
 				400E00B31CE0276900A1CE99 /* Main.storyboard */,
 				400E00B61CE0276900A1CE99 /* Assets.xcassets */,
 				400E00B81CE0276900A1CE99 /* LaunchScreen.storyboard */,
@@ -231,6 +255,7 @@
 			files = (
 				400E00BA1CE0276900A1CE99 /* LaunchScreen.storyboard in Resources */,
 				400E00B71CE0276900A1CE99 /* Assets.xcassets in Resources */,
+				40EE45FB1CE3335A00950586 /* AutoLayoutCell.xib in Resources */,
 				400E00B51CE0276900A1CE99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400E00B21CE0276900A1CE99 /* ViewController.swift in Sources */,
+				401A1B991CE0607D004F7AF3 /* FirstViewController.swift in Sources */,
+				40EE45EF1CE1923700950586 /* CustomViewCell.swift in Sources */,
 				400E00B01CE0276900A1CE99 /* AppDelegate.swift in Sources */,
+				40EE45E81CE0969E00950586 /* StringExt.swift in Sources */,
+				40EE45FA1CE3335A00950586 /* AutoLayoutCell.swift in Sources */,
+				40EE45ED1CE1803400950586 /* TableViewController.swift in Sources */,
+				40EE45F11CE31AC700950586 /* HomeViewController.swift in Sources */,
+				40EE45F31CE32C0F00950586 /* AutoCellHeightViewController.swift in Sources */,
+				400E00DE1CE027A000A1CE99 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +514,7 @@
 				400E00D61CE0276A00A1CE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		400E00D71CE0276A00A1CE99 /* Build configuration list for PBXNativeTarget "SwiftEmoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				400E00D91CE0276A00A1CE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		400E00DA1CE0276A00A1CE99 /* Build configuration list for PBXNativeTarget "SwiftEmoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				400E00DC1CE0276A00A1CE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

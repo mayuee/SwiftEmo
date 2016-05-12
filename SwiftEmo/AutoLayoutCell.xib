@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="KGk-i7-Jjw" customClass="AutoLayoutCell" customModule="SwiftEmo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ADx-cF-SAZ">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <color key="backgroundColor" red="0.36566696609999999" green="1" blue="0.2207105962" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="GB6-DN-2tg"/>
+                            <constraint firstAttribute="height" constant="50" id="hOb-y3-kfC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXr-c3-or2">
+                        <rect key="frame" x="66" y="8" width="255" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YXr-c3-or2" firstAttribute="leading" secondItem="ADx-cF-SAZ" secondAttribute="trailing" constant="8" id="1kB-Ou-eL1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YXr-c3-or2" secondAttribute="trailing" id="RIJ-80-5lS"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="ADx-cF-SAZ" secondAttribute="leading" id="cIF-gc-1zS"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YXr-c3-or2" secondAttribute="bottom" id="eIn-JA-ybi"/>
+                    <constraint firstAttribute="topMargin" secondItem="ADx-cF-SAZ" secondAttribute="top" id="hUy-fc-667"/>
+                    <constraint firstAttribute="topMargin" secondItem="YXr-c3-or2" secondAttribute="top" id="scS-4Q-RBP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageHeader" destination="ADx-cF-SAZ" id="Iaa-d0-ZzQ"/>
+                <outlet property="labelTitle" destination="YXr-c3-or2" id="eLk-6a-9Yo"/>
+            </connections>
+            <point key="canvasLocation" x="528.5" y="406"/>
+        </tableViewCell>
+    </objects>
+</document>
